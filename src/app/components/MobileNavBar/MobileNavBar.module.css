@@ -1,0 +1,25 @@
+.main {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid var(--borderColor);
+  padding-block: 1rem;
+}
+
+.navItem {
+  transition: transform 0.3s ease;
+  padding: 0.2rem;
+}
+
+.navItem:hover {
+  opacity: 0.7;
+}
+
+.activePage {
+  border: 2px solid var(--color);
+  border-radius: 1rem;
+  background-color: #ffa6002c;
+}

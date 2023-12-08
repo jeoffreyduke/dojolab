@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100vw;
+}
+
+.nav {
+  position: relative;
+  width: 20%;
+  height: 100vh;
+  color: #fff;
+  background-color: var(--color);
+  border-right: 1px solid var(--borderColor);
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  overflow: scroll;
+}
+
+.body {
+  width: 80%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+}
+
+/* Tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Desktop devices */
+@media (min-width: 768px) {
+  /* Styles for desktop devices */
+}

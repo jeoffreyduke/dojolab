@@ -1,0 +1,57 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 30%;
+  width: 100%;
+  color: #fff;
+  background-color: var(--color);
+  padding: 2rem;
+  padding-inline: 2rem;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.headerBtn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color);
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.headerBtn:hover {
+  opacity: 0.8;
+}
+
+.boxes {
+  position: relative;
+  bottom: 18%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 35%;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 1px 3px 1px var(--borderColor);
+  border-radius: 0.5rem;
+  margin: 1rem;
+}

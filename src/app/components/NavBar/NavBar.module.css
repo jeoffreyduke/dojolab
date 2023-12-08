@@ -1,0 +1,67 @@
+.schoolName {
+  position: sticky;
+  left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navItemCon {
+  padding: 1rem;
+  padding-block: 0.5rem;
+  color: var(--inActiveTextColor);
+}
+
+.navItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navItem:hover,
+.activeItem,
+.activePage {
+  color: #fff;
+}
+
+.iconCon {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.dropdown {
+  min-height: fit-content;
+  max-height: 7rem;
+  width: 100%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.create,
+.dropItem {
+  transition: transform 0.3s ease;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-inline: 1rem;
+}
+
+.create:hover,
+.dropItem:hover {
+  color: #fff;
+}
+
+.create {
+  width: 100%;
+  display: flex;
+  margin-inline: 0;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}

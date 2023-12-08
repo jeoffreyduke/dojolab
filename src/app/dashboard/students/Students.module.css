@@ -1,0 +1,132 @@
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 30%;
+  width: 100%;
+  color: #fff;
+  background-color: var(--color);
+  padding: 2rem;
+  padding-inline: 2rem;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.headerBtn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color);
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.headerBtn:hover {
+  opacity: 0.8;
+}
+
+.boxes {
+  position: relative;
+  top: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 125%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 1px 3px 1px var(--borderColor);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.boxLabel {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.boxMainStat {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.studentsCon {
+  box-shadow: 0px 2px 4px rgba(13, 23, 33, 0.08),
+    0px 1px 2px rgba(21, 30, 40, 0.08);
+  border-radius: 8px;
+  margin: 2rem;
+  margin-top: 10%;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-block: 1rem;
+  border-bottom: 1px solid rgba(21, 30, 40, 0.08);
+}
+
+.students {
+  display: flex;
+}
+
+.studentCon {
+  height: inherit;
+  width: 27.5%;
+}
+
+.studentConName {
+  width: 45%;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 1rem;
+  padding-block: 0;
+  margin-block: 0.5rem;
+  cursor: pointer;
+}
+
+.studentStat {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-block: 0.8rem;
+  cursor: pointer;
+}
+
+.studentHeader {
+  font-weight: 700;
+  color: #686868;
+  background-color: #eaeaea;
+  padding-block: 0.2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.studentHeaderName {
+  padding: 1rem;
+  padding-block: 0.2rem;
+}

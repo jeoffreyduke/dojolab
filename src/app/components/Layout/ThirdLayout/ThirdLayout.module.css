@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  width: 100vw;
+}
+
+.nav {
+  width: 20%;
+  height: 100vh;
+  border-right: 2px solid var(--borderColor);
+  padding-inline: 1rem;
+  padding-block: 2rem;
+}
+
+.main {
+  width: 50%;
+  height: 100vh;
+  padding: 2rem;
+  overflow: scroll;
+}

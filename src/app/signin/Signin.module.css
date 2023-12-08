@@ -1,0 +1,133 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  padding-inline: 4rem;
+}
+
+.header {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputCon {
+  margin-top: 1rem;
+  width: 30%;
+}
+
+.input {
+  height: 3rem;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid var(--borderColor);
+  border-radius: 0.2rem;
+  padding-inline: 1rem;
+  margin-top: 0.5rem;
+  outline: var(--color);
+}
+
+.input:active {
+  border-color: var(--color);
+}
+
+.password {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid var(--borderColor);
+  border-radius: 0.2rem;
+  padding-inline: 1rem;
+  margin-top: 0.5rem;
+  outline: var(--color);
+}
+
+.password:active {
+  border-color: var(--color);
+}
+
+.passwordInput {
+  height: 100%;
+  width: 95%;
+  border: none;
+  outline: none;
+}
+
+.eyeContainer {
+  z-index: 20;
+  cursor: pointer;
+}
+
+.eye {
+  color: var(--color);
+}
+
+.err {
+  color: #ff3333;
+  font-size: 0.7rem;
+  text-align: "center";
+  margin: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 30%;
+  height: 48px;
+  background: var(--color); /* Adjust the color as needed */
+  color: aliceblue;
+  border: none; /* Adjust the border color as needed */
+  box-shadow: 0px 4px 0px #b88323; /* Adjust the shadow color as needed */
+  border-radius: 16px;
+  align-self: center;
+  cursor: pointer;
+  margin: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #e7ab3a; /* Adjust the hover color as needed */
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+  .main {
+    padding: 0;
+  }
+  .header {
+    font-size: 1rem;
+  }
+  .btn,
+  .inputCon {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+}
+
+/* Tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Desktop devices */
+@media (min-width: 768px) {
+  /* Styles for desktop devices */
+}

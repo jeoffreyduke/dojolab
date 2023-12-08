@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-inline: 3rem;
+}
+
+.search {
+  height: 3rem;
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.5rem;
+}
